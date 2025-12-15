@@ -1,117 +1,68 @@
 # Fuel-Efficiency-Project
 
 
+
+
 # UEL Average (MPG) Predictor using Machine Learning
 
-* In this project, I developed a **machine learning–based fuel efficiency (MPG) prediction system** using Python.
-  The model predicts the **UEL average (miles per gallon)** of vehicles based on their technical and performance attributes.
-  The project uses the **Auto MPG dataset from Kaggle** and follows a complete machine learning workflow.
-
-* Below is an overview of the project’s key steps:
+* In this project, I developed a machine learning model using Python to predict **vehicle fuel efficiency (MPG)**.
+  The system uses the **Auto MPG dataset from Kaggle** and estimates the UEL average based on vehicle specifications.
 
 ---
 
-##🔹 Dataset Used
+## Dataset
 
-* **Dataset Name:** Auto MPG Dataset
-* **Source:** Kaggle
-* The dataset contains automobile data including engine specifications, vehicle weight, and performance indicators.
-
----
-
-##🔹 Data Loading
-
-* The dataset is loaded using **Pandas**.
-* Initial exploration is performed to understand:
-
-  * Dataset structure
-  * Data types
-  * Presence of missing values
+* **Source:** Kaggle (Auto MPG Dataset)
+* Contains automobile data such as engine size, weight, horsepower, and performance features.
 
 ---
 
-##🔹 Data Preprocessing
+## Data Preprocessing
 
-* Missing values (especially in the *horsepower* feature) are identified and handled.
-* Irrelevant columns are removed where necessary.
-* Categorical data is encoded for machine learning compatibility.
-* Feature scaling is applied to improve model performance.
-
----
-
-##🔹 Feature Selection
-
-* Important features used for prediction include:
-
-  * Cylinders
-  * Displacement
-  * Horsepower
-  * Weight
-  * Acceleration
-  * Model Year
-  * Origin
-* The **target variable** is **MPG (Miles Per Gallon)**.
+* Loaded and explored the dataset using Pandas.
+* Handled missing values in the horsepower feature.
+* Encoded categorical variables and selected relevant features.
+* Applied feature scaling where required.
 
 ---
 
-##🔹 Model Training
+## Model Training
 
-* A regression-based machine learning model is trained on the processed dataset.
-* The data is split into **training and testing sets** to evaluate model performance fairly.
+* Used a regression-based machine learning model.
+* Split the data into training and testing sets for evaluation.
 
 ---
 
-##🔹 Model Evaluation
+## Model Evaluation
 
-* The model is evaluated using standard regression metrics such as:
+* Evaluated model performance using:
 
   * Mean Absolute Error (MAE)
   * Mean Squared Error (MSE)
   * R² Score
-* These metrics help measure how accurately the model predicts fuel efficiency.
 
 ---
 
-##🔹 Results
+## Results
 
-* The model successfully predicts vehicle MPG with reasonable accuracy.
-* Analysis shows that **vehicle weight and engine size** have a strong impact on fuel efficiency.
-* The results confirm that machine learning is effective for real-world automotive data prediction.
-
----
-
-##🔹 User Interaction
-
-* The system allows predictions based on input vehicle features.
-* Users can estimate fuel efficiency without manual calculations.
+* The model predicts MPG with reasonable accuracy.
+* Vehicle weight and engine displacement have a strong impact on fuel efficiency.
 
 ---
 
-##🔹 Conclusion
+## Conclusion
 
-Overall, this project demonstrates my ability to:
-
-* Preprocess real-world datasets
-* Apply machine learning regression techniques
-* Evaluate model performance
-* Build a practical predictive system using Python
-
-This project provides a strong foundation for further enhancements such as:
-
-* Using advanced models (Random Forest, XGBoost)
-* Hyperparameter tuning
-* Deploying the model as a web application
+This project demonstrates the application of machine learning techniques to predict fuel efficiency using real-world data.
+It highlights skills in data preprocessing, model training, and performance evaluation.
 
 ---
 
-## 🛠️ Technologies Used
+## Technologies Used
 
 * Python
 * Jupyter Notebook
-* Pandas
-* NumPy
-* Matplotlib / Seaborn
+* Pandas, NumPy
 * Scikit-learn
+* Matplotlib / Seaborn
 
-
-Just tell me.
+---
