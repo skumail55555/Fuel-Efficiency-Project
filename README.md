@@ -7,7 +7,7 @@ The main objective is to estimate the UEL average (fuel efficiency) of automobil
 
 Fuel efficiency prediction is an important real-world problem in the automotive industry, helping manufacturers and consumers make informed decisions regarding vehicle performance and environmental impact.
 
-📊 Dataset Description
+Dataset Description
 
 Dataset Name: Auto MPG Dataset
 
@@ -101,7 +101,7 @@ Number of cylinders
 
 The results demonstrate that machine learning can effectively model real-world automotive data.
 
-🏁 Conclusion
+Conclusion
 
 This project demonstrates the application of machine learning regression techniques to predict fuel efficiency using real-world data.
 It highlights the importance of data preprocessing, feature selection, and evaluation in building reliable predictive models.
